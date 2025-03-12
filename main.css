@@ -39,7 +39,7 @@ nav ul li a:hover {
     color: #ff9800;
 }
 
-.container {
+main {
     padding: 120px 40px 40px;
     text-align: center;
     background-color: rgb(4, 111, 49);
@@ -53,15 +53,14 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.container h2 {
+h2 {
     font-size: 25px;
     color: #333;
     margin-bottom: 15px;
 }
-
-.container p {
+p {
     font-size: 18px;
-    color: #666;
+    color: #f8f4f4;
     line-height: 1.6;
     max-width: 80%;
 }
