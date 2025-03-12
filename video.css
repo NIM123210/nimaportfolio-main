@@ -43,10 +43,8 @@ main {
     padding: 120px 40px 40px;
     text-align: center;
     background-color: rgb(4, 111, 49);
-    max-width: 900px;
-    margin: 80px auto;
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,9 +61,6 @@ p {
     color: #f8f4f4;
     line-height: 1.6;
     max-width: 80%;
-}
-aside{
-    background-color: #ff9800;
 }
 footer {
     background-color: #059265;
