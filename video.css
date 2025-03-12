@@ -64,9 +64,11 @@ p {
     line-height: 1.6;
     max-width: 80%;
 }
-
+aside{
+    background-color: #ff9800;
+}
 footer {
-    background: #059265;
+    background-color: #059265;
     color: white;
     text-align: center;
     padding: 10px;
