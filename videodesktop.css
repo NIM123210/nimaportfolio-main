@@ -4,11 +4,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header"
-    "main main main"
+    "main main aside"
     "footer footer footer"
     ;
-}
-main{
-    height: 100px;
-    width: auto;
 }
