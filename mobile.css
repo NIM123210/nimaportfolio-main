@@ -1,28 +1,37 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer"
+    ;
+}
 
-    nav ul {
-        padding: 10px;
-        background: #444;
-    }
-    nav ul li {
-        display: block;
-        text-align: center;
-        margin: 10px 0;
-    }
-    nav ul li a {
-        display: block;
-        padding: 10px;
-        background: #555;
-        border-radius: 5px;
-    }
-    nav ul li a:hover {
-        background: #ff9800;
-        color: white;
-    }
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-    footer {
-        position: relative;
-        padding: 15px;
-    }
+nav ul {
+    padding: 10px;
+    background: #444;
+}
+nav ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background: #555;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background: #ff9800;
+    color: white;
+}
+   
+footer {
+    position: relative;
+    padding: 15px;
+}
