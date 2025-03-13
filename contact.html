@@ -22,10 +22,40 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Contact Me</h2>
-        <p>Email: example@email.com | Phone: 123-456-7890</p>
-   </main>
+         <main>
+            <main>
+                
+                <form action="submit_form.php" method="POST">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                    
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                    
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        Do you want to accept the terms and conditions?
+                    </label>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </main>
+        </main>
    <aside>
     
    </aside>
