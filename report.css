@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #0dab3f;
+    overflow-x: hidden;
 }
 
 header {
@@ -43,6 +44,9 @@ main {
     padding: 120px 40px 40px;
     text-align: center;
     background-color: rgb(4, 111, 49);
+    padding: 120px;
+    height: auto;
+    overflow: hidden;
     max-width: 900px;
     margin: 80px auto;
     border-radius: 10px;
