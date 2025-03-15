@@ -74,3 +74,39 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+
+form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #f8f4f4;
+}
+
+
+form input,
+form select,
+form button {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #059265;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #069457;
+}
