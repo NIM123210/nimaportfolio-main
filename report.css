@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background-color: #0dab3f;
     overflow-x: hidden;
+
 }
 
 header {
@@ -49,6 +50,8 @@ main {
     overflow: hidden;
     max-width: 900px;
     margin: 80px auto;
+    margin-left: 40vh;
+    width: 100vh;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -57,11 +60,16 @@ main {
     justify-content: center;
 }
 
+main h1 {
+    margin-top: 10px;
+}
+
 h2 {
     font-size: 25px;
     color: #333;
     margin-bottom: 15px;
 }
+
 p {
     font-size: 18px;
     color: #f8f4f4;
